@@ -1,0 +1,44 @@
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
+a{
+    color: red;
+}
+
+.menu a{
+    color: coral;
+}
+.menu ul{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+a:hover {
+    background-color: crimson;
+    height: 20px;
+}
+.wrapper {
+    background-color: beige;
+}
